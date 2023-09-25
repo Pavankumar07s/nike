@@ -1,0 +1,414 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+     
+
+}
+header{
+    display: flex;
+    height: 10%;
+    background-color: #222227;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 30px;
+    position: relative;
+    margin-left: 50px;
+    
+    
+}
+header ul{
+    display: flex;
+
+}
+header ul li{
+    list-style: none;
+    
+    
+}
+header ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 70px;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color:grey;
+    letter-spacing: 2px;
+
+}
+header i{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-right: 25px;
+    padding: 25px;
+}
+header #cart{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-right: -280px;
+    padding: 25px;
+}
+.page{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    
+
+}
+.box{
+    display:flex;
+    width: 50%;
+}
+
+#left{
+    background-color: #222227;
+}
+#left h1{
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 130px;
+    line-height: 120px;
+    top: 20%;
+    left: 10%;
+}
+
+#smallbox{
+    display: inline-block;
+    background-color:#414247;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    height: 16%;
+}
+#smallbox h4{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 90px;
+}
+#smallbox p{
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 90px;
+}
+ #explore{
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    background-color: red;
+    height: 40px;
+    width: 300px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#explore h4{
+    position: relative;
+    left: 240px;
+    font-size: 18px;
+    line-height: 36px;
+}
+#left #price{
+    display: inline-block;
+    border: 1px solid #414247 ;
+    position: absolute;
+    bottom:0%;
+    right: 51%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    padding: 12px 13px;
+    color: white;
+
+}
+
+
+#right{
+    background-color:#414247;
+}
+#smallbox1{
+    display: inline-block;
+    background-color:#222227;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    height: 16%;
+}
+#smallbox1 h4{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    right: 50px;
+}
+#smallbox1 p{
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    right: 50px;
+}
+
+.page #shoe{
+    z-index: 100;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 70%;
+    top: 8%;
+    left: 20%;
+    
+}
+
+#right button{
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+    left: 51%;
+    margin:5px;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 12px 13px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: red;
+    border: transparent;
+}
+
+#right h1{
+    position: absolute;
+    top: 2%;
+    margin-left: 5%;
+    color: #22222776;
+    font-size: 200px;
+    line-height: 240px;
+}
+
+/* hower section */
+#shoe img{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content:center ;
+transition: ease-in-out 400ms;
+
+}
+#shoe img:hover{
+    scale:1.05;
+    cursor: pointer;
+}
+
+/* navigation hover */
+
+header ul li a:hover,header ul li a.active{
+    cursor: pointer;
+    color: white;
+}
+#right button:hover{
+    transition: ease-in 200ms;
+    scale: 105%;
+    cursor: pointer;
+}
+
+header i:hover,header #cart:hover{
+    transition: ease-in-out 300ms;
+    scale: 1.2;
+    color: red;
+}
+
+.sec{
+    width: 100%;
+    height: 225%;
+    display: flex;
+    background-color: #414247;
+    overflow-x: hidden;
+    
+}
+
+.sec #para{
+    position:absolute;
+    margin-top: 50px;
+    left: 33%;  
+}
+
+.sec #para h1{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #222227c0;
+    padding: 20px 30px;
+    text-align: center;
+}
+.sec #para p{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #222227c0;
+    text-align: center;
+}
+
+.sec #products{
+    position: absolute;
+    margin-top: 22%;
+    font-size: 1.45rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+   
+
+}
+.sec #products #recommendedproduct::-webkit-scrollbar{
+    display: none;
+}
+
+.sec #products #recommendedproduct{
+    display: inline-block;
+    position: relative;
+    width: 230px;
+    height: 335px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: rgba(16, 16, 16, 0.782) 0px 2px 3px 0px, rgba(134, 139, 141, 0.886) 0px 1px 6px 0px;
+    background-color:#F6F6F6;
+    flex-wrap: wrap;
+}
+/* animation */
+
+.sec #products #recommendedproduct:hover{
+    transition: ease-in-out 100ms;
+    scale: 1.04;
+
+}
+.sec #products #recommendedproduct #image{
+    display: inline-block;
+    position: relative;
+    width: 205px;
+    height: 255px;
+    margin: 10px;
+    margin-bottom: 100px;
+    
+}
+.sec #products #recommendedproduct #image img{
+    max-width: 100%;
+  max-height: 100%;
+  display: block; /* Ensures the image is centered within the container */
+  margin: auto; /* Centers the image horizontally */
+  border-radius: 30px;
+}
+/* animation */
+.sec #products #recommendedproduct #image img:hover{
+    transition: ease-in-out 400ms;
+    scale: 1.06;
+    cursor: pointer;
+}
+.sec button{
+    position: absolute;
+    bottom: 5px;
+    left: 37px;
+    padding: 15px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #222227;
+    color:white;
+}
+/* animation */
+.sec button:hover{
+    transition: ease-in-out 400ms;
+    scale: 1.02;
+    color: red;
+    cursor: pointer;
+
+}
+.sec #products #recommendedproduct h5{
+    z-index: 100;
+    position: absolute;
+    bottom: 70px;
+    width: 80%;
+    padding:3px 6px;
+    margin-left: 20px;
+    background-color:rgba(255, 0, 0, 0.766);
+    border-radius: 50px;
+    text-align: center;
+   
+}
+.footer{
+    white-space: nowrap;
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    position: relative;
+}
+
+.footer #links1{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    border: 2px solid red;
+    position: absolute;
+    justify-content: space-between;
+    
+    
+}
+ #link1 a{
+
+    display: inline-block;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 50px;
+    padding-top: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 13px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+
+}
+
+
+@media only screen and (max-width: 1501px){
+
+    #shoe img {
+        scale: 0.9;
+    }
+    
+}
+@media only screen and (max-width: 1424px){
+
+    #shoe img {
+        scale: 0.8;
+    }
+    
+}
+@media only screen and (max-width: 1376px){
+
+    #shoe img {
+        scale: 0.7;
+    }
+    
+}
+
